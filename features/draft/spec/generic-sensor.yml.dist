@@ -7,6 +7,14 @@ status:
 compat_features:
   # baseline: false
   # support:
+  #   chrome: "66"
+  #   chrome_android: "66"
+  #   edge: "79"
+  - html.elements.iframe.allow.accelerometer
+  - html.elements.iframe.allow.magnetometer
+
+  # baseline: false
+  # support:
   #   chrome: "67"
   #   chrome_android: "67"
   #   edge: "79"
@@ -28,10 +36,10 @@ compat_features:
   #   chrome: "88"
   #   chrome_android: "88"
   #   edge: "88"
-  - http.headers.Permissions-Policy.gyroscope
   - http.headers.Permissions-Policy.magnetometer
 
   # ⬇️ Same status as overall feature ⬇️
   # baseline: false
   # support: {}
+  - html.elements.iframe.allow.ambient-light-sensor
   - http.headers.Permissions-Policy.ambient-light-sensor

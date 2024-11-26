@@ -3,8 +3,14 @@
 
 status:
   baseline: false
-  support: {}
+  support:
+    chrome: "131"
 compat_features:
+  # baseline: false
+  # support:
+  #   chrome: "131"
+  #   chrome_android: "131"
+  #   edge: "131"
   - css.properties.font-variant-emoji
   - css.properties.font-variant-emoji.emoji
   - css.properties.font-variant-emoji.normal

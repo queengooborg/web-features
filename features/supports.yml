@@ -5,5 +5,3 @@ caniuse: css-featurequeries
 group: css
 status:
   compute_from: css.at-rules.supports
-# TODO: see discussion on https://github.com/web-platform-dx/web-features/pull/1353#discussion_r1673871428
-# - api.CSSImportRule.supportsText
